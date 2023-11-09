@@ -1,7 +1,7 @@
 /datum/outfit/spacepol
 	name = "Spacepol Officer"
 	uniform = /obj/item/clothing/under/rank/security/officer/spacepol
-	suit = /obj/item/clothing/suit/armor/vest/bulletproof/police
+	suit = /obj/item/clothing/suit/armor/bulletproof/police
 	belt = /obj/item/gun/ballistic/automatic/pistol/m1911
 	head = /obj/item/clothing/head/hats/warden/police
 	gloves = /obj/item/clothing/gloves/tackler/combat
