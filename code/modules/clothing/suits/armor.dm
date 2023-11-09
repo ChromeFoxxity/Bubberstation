@@ -329,6 +329,10 @@
 	acid = 50
 	wound = 20
 
+/obj/item/clothing/suit/armor/bulletproof/police
+	name = "police officer's armor"
+	desc = "A Type III heavy bulletproof vest with an additional police badge on the chest of the vest, with ``POLICE`` written on the back."
+
 /obj/item/clothing/suit/armor/laserproof
 	name = "reflector vest"
 	desc = "A vest that excels in protecting the wearer against energy projectiles, as well as occasionally reflecting them."

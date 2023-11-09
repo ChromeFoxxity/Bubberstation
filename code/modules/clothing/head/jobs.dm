@@ -419,6 +419,7 @@
 /obj/item/clothing/head/hats/warden/police
 	name = "police officer's hat"
 	desc = "A police officer's hat. This hat emphasizes that you are THE LAW."
+	icon_state = "solpolhelm"
 
 /obj/item/clothing/head/hats/warden/red
 	name = "warden's hat"
