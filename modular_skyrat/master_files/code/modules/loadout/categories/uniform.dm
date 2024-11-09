@@ -583,6 +583,26 @@
 	name = "Classic Prisoner Jumpsuit"
 	item_path = /obj/item/clothing/under/rank/prisoner/classic
 
+/datum/loadout_item/uniform/miscellaneous/highrisk
+	name = "High Risk Prisoner Jumpsuit"
+	item_path = /obj/item/clothing/under/rank/prisoner/highsec
+
+/datum/loadout_item/uniform/miscellaneous/lowrisk
+	name = "Low Risk Prisoner Jumpsuit"
+	item_path = /obj/item/clothing/under/rank/prisoner/lowsec
+
+/datum/loadout_item/uniform/miscellaneous/protectcustody
+	name = "Protective Custody Prisoner Jumpsuit"
+	item_path = /obj/item/clothing/under/rank/prisoner/protcust
+
+/datum/loadout_item/uniform/miscellaneous/supermax
+	name = "Supermax Prisoner Jumpsuit"
+	item_path = /obj/item/clothing/under/rank/prisoner/supermax
+
+/datum/loadout_item/uniform/miscellaneous/syndicaptive
+	name = "Syndicate Prisoner Jumpsuit"
+	item_path = /obj/item/clothing/under/rank/prisoner/syndicate/station
+
 /datum/loadout_item/uniform/miscellaneous/redscrubs
 	name = "Red Scrubs"
 	item_path = /obj/item/clothing/under/rank/medical/scrubs/skyrat/red
