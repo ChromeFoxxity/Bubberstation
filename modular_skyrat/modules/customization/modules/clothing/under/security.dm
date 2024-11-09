@@ -115,3 +115,8 @@
 	greyscale_colors = "#992300"
 	has_sensor = FALSE
 	supports_variations_flags = NONE
+
+/obj/item/clothing/under/rank/prisoner/syndicate/station // BUBBERSTATION EDIT. putting it here cause Skyrat's dead, so whatever.
+	name = "syndicate prisoner jumpsuit"
+	desc = "A dark blood red prison jumpsuit, for the known Syndicate captives. High risk, and valuable to interrogate. Its suit sensors are stuck in the \"Fully On\" position."
+	greyscale_colors = "#992300"
