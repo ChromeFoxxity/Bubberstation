@@ -1,0 +1,4218 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"af" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/modular_computer/laptop/preset/syndicate{
+	pixel_y = 3
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/south,
+/obj/machinery/button/door/directional/south{
+	pixel_x = -6;
+	req_access = list("syndicate_leader");
+	name = "Exterior Windows Blast Doors Control";
+	id = "brutus_ext_wind"
+	},
+/obj/machinery/button/door/directional/south{
+	pixel_x = 6;
+	req_access = list("syndicate_leader");
+	id = "brutus_hangar";
+	name = "Hangar Blast Doors Control"
+	},
+/obj/machinery/button/door/directional/south{
+	req_access = list("syndicate_leader");
+	name = "Bridge Windows Blast Doors Control";
+	id = "brutus_int_wind";
+	pixel_y = -34
+	},
+/turf/open/floor/wood/large,
+/area/shuttle/ruin/syndicatefrigate)
+"aq" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 6
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 9
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 2
+	},
+/obj/item/multitool{
+	pixel_y = 3
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"au" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/airlock/external/ruin{
+	name = "SYN-C Brutus External Airlock";
+	id_tag = "brutus_bolt_port"
+	},
+/obj/docking_port/mobile{
+	dir = 2;
+	shuttle_id = "brutusfrigate";
+	name = "SYN-C Brutus";
+	port_direction = 8;
+	preferred_direction = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"aA" = (
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/obj/effect/decal/cleanable/xenoblood/xgibs,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"aH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"aK" = (
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew/gear,
+/obj/effect/decal/cleanable/blood,
+/obj/item/ammo_casing/spent,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"bu" = (
+/obj/item/grenade/smokebomb{
+	pixel_x = 5
+	},
+/obj/item/grenade/smokebomb{
+	pixel_x = 5
+	},
+/obj/item/suppressor,
+/obj/item/gun/ballistic/automatic/pistol,
+/obj/structure/closet/crate/secure/weapon{
+	req_access = list("syndicate")
+	},
+/obj/item/grenade/c4,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/spawner/random/exotic/antag_gear,
+/obj/effect/spawner/random/exotic/antag_gear,
+/obj/effect/spawner/random/exotic/antag_gear_weak,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"by" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4;
+	welded = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"bG" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/vg_decals/atmos/air,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/bed/nest,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/item/clothing/mask/facehugger/impregnated,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"cc" = (
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"cq" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"ct" = (
+/obj/structure/alien/weeds/node,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"cw" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/directional/west,
+/obj/structure/bed/nest,
+/obj/item/clothing/mask/facehugger/impregnated,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew/captain,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"cx" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/table,
+/obj/item/reagent_containers/cup/glass/bottle/beer{
+	pixel_x = 6;
+	pixel_y = 17
+	},
+/obj/effect/spawner/random/food_or_drink/dinner{
+	pixel_x = -8;
+	pixel_y = 9
+	},
+/obj/effect/spawner/random/food_or_drink/dinner{
+	pixel_x = 6;
+	pixel_y = 1
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"cT" = (
+/obj/machinery/atmospherics/components/tank/air/layer4,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"dy" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/white/filled/warning,
+/obj/machinery/suit_storage_unit/open,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"dJ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/warning{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/computer/shuttle/syndicatefrigate{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"dX" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"eb" = (
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/item/clothing/mask/facehugger/dead,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"ee" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 1
+	},
+/obj/machinery/vending/cigarette/syndicate{
+	onstation = 0
+	},
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"eh" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"eq" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/bed/nest,
+/obj/item/clothing/mask/facehugger/impregnated,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew/gear,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"et" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 1
+	},
+/obj/machinery/vending/cola/black{
+	onstation = 0
+	},
+/obj/structure/cable,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"eF" = (
+/obj/machinery/porta_turret/syndicate/shuttle{
+	dir = 10
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"eI" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/airlock/external/ruin{
+	name = "SYN-C Brutus External Airlock";
+	id_tag = "brutus_bolt_port"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"eL" = (
+/obj/effect/turf_decal/siding/thinplating_new/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/machinery/vending/medical/infested_frigate{
+	req_access = list("syndicate")
+	},
+/obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"eQ" = (
+/obj/effect/turf_decal/siding/thinplating_new/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/machinery/sleeper/syndie{
+	dir = 4
+	},
+/obj/structure/sign/poster/contraband/random/directional/south,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"fd" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"ff" = (
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/table/reinforced,
+/obj/machinery/microwave,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"fj" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/filled/warning{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/open,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/south,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"fm" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"fp" = (
+/obj/structure/sign/flag/syndicate/directional/east,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"fz" = (
+/obj/effect/turf_decal/delivery/red,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/spawner/random/exotic/infested_frigate,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"fW" = (
+/turf/template_noop,
+/area/template_noop)
+"gf" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/obj/machinery/door/poddoor{
+	name = "SYN-C Brutus Bridge Window Blast Door";
+	id = "brutus_int_wind"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"gi" = (
+/obj/structure/mecha_wreckage/mauler{
+	anchored = 1
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/ammo_casing/spent,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"gn" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/green/filled/warning,
+/obj/structure/table/reinforced,
+/obj/item/folder/red,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"go" = (
+/obj/structure/cable,
+/obj/structure/sign/flag/syndicate/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"gE" = (
+/obj/structure/cable/layer1,
+/obj/effect/turf_decal/caution/white{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/alien/egg/burst,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"gF" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/airlock/external/ruin{
+	name = "SYN-C Brutus External Airlock";
+	id_tag = "brutus_bolt_port"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"gJ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4;
+	welded = 1
+	},
+/obj/item/gun/ballistic/automatic/smartgun,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"gM" = (
+/obj/effect/turf_decal/bot_red/left,
+/obj/item/rolling_table_dock,
+/obj/item/mod/paint{
+	pixel_x = -5;
+	pixel_y = 13
+	},
+/obj/item/paint/red{
+	pixel_x = 9;
+	pixel_y = 8
+	},
+/obj/item/paint/black{
+	pixel_y = 2;
+	pixel_x = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"gN" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north{
+	equipment = 1
+	},
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/full_charge,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/obj/effect/mapping_helpers/apc/cell_5k,
+/obj/machinery/rnd/production/colony_lathe,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"gO" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/white/filled/warning,
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"gT" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"gU" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
+/obj/machinery/recharge_station,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"gX" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
+/obj/machinery/suit_storage_unit/open,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"gY" = (
+/obj/machinery/power/smes/full,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"hb" = (
+/obj/structure/cable/layer1,
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"hc" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/button/door/directional/north{
+	id = "brutus_bolt_port";
+	name = "External Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	req_access = list("syndicate")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"hk" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 1
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/spawner/random/exotic/antag_gear_weak{
+	pixel_y = 5
+	},
+/obj/effect/spawner/random/exotic/antag_gear,
+/obj/structure/sign/poster/contraband/random/directional/south,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"hn" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"hs" = (
+/obj/machinery/power/shuttle_engine/propulsion/left{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"hF" = (
+/obj/structure/sign/flag/syndicate/directional/east,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"hL" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "SYN-C Brutus Engineering"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"hM" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"hO" = (
+/obj/item/kirbyplants/organic/plant21,
+/obj/machinery/light/directional/north,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"hP" = (
+/obj/item/kirbyplants/organic/plant21,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"hX" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"ib" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/splatter,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/titanium/tiled,
+/area/shuttle/ruin/syndicatefrigate)
+"ir" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/machinery/door/airlock/silver/glass{
+	name = "SYN-C Brutus Cell";
+	id_tag = "brutus_bolt_cell"
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"iC" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/gibspawner/xeno,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"ja" = (
+/obj/machinery/power/shuttle_engine/huge{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"jd" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/blood,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/shuttle/ruin/syndicatefrigate)
+"jh" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/clothing/mask/facehugger/dead,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"jo" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/alien/egg/burst,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"jq" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/white/filled/warning,
+/obj/structure/rack/shelf,
+/obj/item/storage/box/emergency_spacesuit,
+/obj/item/storage/box/emergency_spacesuit,
+/obj/machinery/light/directional/north,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"jA" = (
+/obj/machinery/airalarm/directional/south,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"jJ" = (
+/obj/structure/cable,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/obj/machinery/power/rtg/advanced,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"jT" = (
+/obj/structure/alien/egg/burst,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"jV" = (
+/obj/machinery/porta_turret/syndicate/shuttle{
+	dir = 10
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/ruin/syndicatefrigate)
+"kg" = (
+/obj/structure/kitchenspike{
+	icon_state = "spikebloodymonkey";
+	desc = "Well, if that isn't the worst thing."
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/freezer,
+/area/shuttle/ruin/syndicatefrigate)
+"kh" = (
+/obj/machinery/porta_turret/syndicate/shuttle{
+	dir = 9
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"ki" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"kl" = (
+/obj/structure/cable,
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate,
+/obj/effect/spawner/random/exotic/technology,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"kw" = (
+/obj/machinery/porta_turret/syndicate/shuttle{
+	dir = 5
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"kF" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"kK" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"ld" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/obj/structure/closet/emcloset/anchored,
+/obj/effect/turf_decal/trimline/white/filled/warning{
+	dir = 10
+	},
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"lf" = (
+/obj/effect/turf_decal/siding/thinplating_new/light,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/structure/table/optable,
+/obj/machinery/light/small/directional/north,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/item/clothing/mask/facehugger/impregnated,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"lg" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/alien/weeds/node,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/turf/open/floor/mineral/titanium/tiled,
+/area/shuttle/ruin/syndicatefrigate)
+"li" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"lx" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/obj/machinery/door/poddoor{
+	name = "SYN-C Brutus External Window Blast Door";
+	id = "brutus_ext_wind"
+	},
+/obj/effect/decal/cleanable/blood/splatter/over_window,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"ly" = (
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/gun/ballistic/automatic/pistol{
+	spawnwithmagazine = 0
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"lD" = (
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/leader,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/highsecurity{
+	name = "SYN-C Brutus Bridge";
+	security_level = 6;
+	id_tag = "brutus_bolt_bridge"
+	},
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"lE" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"lF" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/alien/egg/burst,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"lK" = (
+/obj/structure/closet/firecloset/full{
+	anchored = 1
+	},
+/obj/item/storage/toolbox/emergency,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/real_red/filled/warning{
+	dir = 8
+	},
+/obj/structure/sign/warning/fire/directional/east,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"lM" = (
+/obj/item/ammo_casing/spent,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"lW" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"lY" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/bed/nest,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/item/clothing/mask/facehugger/impregnated,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"ma" = (
+/obj/effect/turf_decal/bot_red,
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"mr" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/flashlight/lamp{
+	pixel_y = 12;
+	pixel_x = -7
+	},
+/obj/item/phone{
+	pixel_x = 10;
+	pixel_y = 7
+	},
+/obj/item/folder/syndicate/red{
+	pixel_x = 2
+	},
+/obj/machinery/newscaster/directional/north,
+/obj/machinery/button/door/directional/west{
+	name = "Bridge Bolt Control";
+	id = "brutus_bolt_bridge";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	req_access = list("syndicate_leader")
+	},
+/obj/item/clothing/head/hats/hos/beret/syndicate{
+	pixel_y = -2;
+	pixel_x = -9
+	},
+/turf/open/floor/wood/large,
+/area/shuttle/ruin/syndicatefrigate)
+"mt" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/closet/secure_closet/freezer/fridge/all_access,
+/obj/effect/spawner/random/food_or_drink/three_course_meal,
+/obj/effect/spawner/random/food_or_drink/three_course_meal,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"my" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/green/filled/warning,
+/obj/machinery/vending/games{
+	onstation = 0
+	},
+/obj/effect/mapping_helpers/broken_machine,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"mC" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"mD" = (
+/obj/structure/cable/multilayer/connected,
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/uranium/half,
+/obj/item/wrench,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"mG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"mI" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/floor,
+/obj/structure/alien/weeds/node,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"mL" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"mP" = (
+/obj/effect/turf_decal/bot_red,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"mR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"nh" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/green/filled/warning,
+/obj/item/food/burger/xeno{
+	pixel_y = 7;
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/cup/soda_cans/cola{
+	pixel_y = 4;
+	pixel_x = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/light/directional/north,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"no" = (
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"nq" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"nz" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"nO" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/alien/weeds/node,
+/obj/structure/bed/nest,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/item/clothing/mask/facehugger/impregnated,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"nZ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/filled/warning{
+	dir = 1
+	},
+/obj/structure/rack/shelf,
+/obj/item/storage/box/emergency_spacesuit,
+/obj/item/storage/box/emergency_spacesuit,
+/obj/machinery/light/directional/south,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"of" = (
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/obj/effect/decal/cleanable/xenoblood/xgibs/limb,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"oj" = (
+/obj/effect/turf_decal/siding/thinplating_new/light,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/item/surgery_tray/full/advanced,
+/obj/structure/table/reinforced/rglass,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"ov" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/filled/warning{
+	dir = 1
+	},
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"pe" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"pn" = (
+/obj/item/kirbyplants/organic/plant21,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"pA" = (
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"pE" = (
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew/gear,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"pI" = (
+/obj/structure/alien/egg/burst,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"pJ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 5
+	},
+/obj/item/assembly/flash/handheld{
+	pixel_y = 5;
+	pixel_x = 2
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"pL" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mob_spawn/corpse/human/doctor{
+	outfit_override = list("id"=/obj/item/card/id/advanced/chameleon,"uniform"=/obj/item/clothing/under/syndicate)
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/shuttle/ruin/syndicatefrigate)
+"pN" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/alien/weeds/node,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"pT" = (
+/obj/effect/turf_decal/bot_red,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"qa" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"qd" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/structure/tank_dispenser/oxygen,
+/obj/structure/sign/warning/vacuum/directional/north,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"qj" = (
+/obj/item/broken_missile,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"qD" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"qG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/structure/barricade/security,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"qL" = (
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/xenoblood,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"qQ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"ro" = (
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"rA" = (
+/obj/effect/turf_decal/siding/thinplating_new/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/effect/spawner/random/medical/minor_healing,
+/obj/effect/spawner/random/medical/minor_healing,
+/obj/structure/table/reinforced/rglass,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"rB" = (
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/wallframe/telescreen/entertainment{
+	icon_state = "entertainment";
+	name = "relatively interesting news";
+	desc = "It's been live this whole time, news from Nanotrasen core space, just an hour ago.";
+	light_power = 0.5;
+	light_range = 3;
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"rG" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/obj/structure/alien/egg/burst,
+/mob/living/basic/alien/drone{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"rQ" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/machinery/door/airlock/hatch{
+	name = "SYN-C Brutus Hangar"
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"rX" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/freezer,
+/area/shuttle/ruin/syndicatefrigate)
+"sr" = (
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"sw" = (
+/obj/machinery/porta_turret/syndicate/shuttle{
+	dir = 9
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/ruin/syndicatefrigate)
+"sy" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"sA" = (
+/obj/structure/cable,
+/obj/machinery/power/rtg/advanced,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"sF" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/structure/closet/emcloset/anchored,
+/obj/effect/turf_decal/trimline/white/filled/warning{
+	dir = 9
+	},
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"sL" = (
+/obj/structure/table/reinforced,
+/obj/effect/spawner/random/food_or_drink/refreshing_beverage,
+/obj/effect/spawner/random/food_or_drink/booze{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/effect/spawner/random/food_or_drink/booze{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/effect/spawner/random/food_or_drink/donkpockets_single,
+/obj/effect/spawner/random/food_or_drink/booze,
+/obj/effect/spawner/random/food_or_drink/booze,
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/closet/mini_fridge{
+	pixel_y = 6;
+	name = "mini-fridge"
+	},
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/machinery/newscaster/directional/north,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"sQ" = (
+/obj/item/kirbyplants/organic/plant21,
+/obj/machinery/button/door/directional/west{
+	name = "Cell Bolt Control";
+	id = "brutus_bolt_cell";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	req_access = list("syndicate")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"tF" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 1
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/spawner/random/entertainment/money_large{
+	pixel_y = 4
+	},
+/obj/effect/spawner/random/entertainment/money_medium{
+	pixel_x = 2
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"tJ" = (
+/obj/structure/bed/nest,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/effect/decal/cleanable/blood,
+/obj/item/clothing/mask/facehugger/impregnated,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"tO" = (
+/obj/structure/bed/maint,
+/obj/effect/mob_spawn/corpse/human/scientist,
+/obj/machinery/light/small/directional/south,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"uf" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"ut" = (
+/mob/living/basic/bot/firebot{
+	faction = list("Syndicate","Xenomorph","silicon","turret");
+	name = "Mr. Squirtsky";
+	desc = "He seems much happier with the new management!"
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/red/real_red/filled/warning{
+	dir = 10
+	},
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"uI" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 4
+	},
+/obj/machinery/recharger,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"uN" = (
+/obj/item/kirbyplants/organic/plant21,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"uP" = (
+/obj/item/weldingtool/largetank,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"vo" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"vE" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/machinery/door/airlock/hatch{
+	name = "SYN-C Brutus Hangar"
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"vO" = (
+/obj/effect/turf_decal/siding/thinplating_new/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/machinery/iv_drip,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"vV" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/alien/weeds/node,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"wc" = (
+/obj/effect/decal/cleanable/blood/trails,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"wk" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/structure/alien/egg/burst,
+/mob/living/basic/alien/sentinel{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"wn" = (
+/obj/effect/turf_decal/siding/thinplating_new/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/machinery/stasis,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"wr" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 1
+	},
+/obj/structure/closet/syndicate{
+	name = "equipment locker";
+	desc = "It's a basic storage unit."
+	},
+/obj/item/clothing/shoes/combat,
+/obj/item/clothing/shoes/combat,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/gloves/combat{
+	pixel_y = -6
+	},
+/obj/item/clothing/gloves/combat{
+	pixel_y = -6
+	},
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/under/syndicate/skirt,
+/obj/item/clothing/under/syndicate/skirt,
+/obj/machinery/button/door/directional/east{
+	name = "Armory Bolt Control";
+	id = "brutus_bolt_armory";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	req_access = list("syndicate")
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"wx" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/structure/alien/egg/burst,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"wA" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/closet/crate/bin,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"wK" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/obj/structure/closet/crate/trashcart/filled,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"wO" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"wX" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"xi" = (
+/obj/machinery/airalarm/directional/west,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew/gear,
+/obj/effect/decal/cleanable/blood,
+/obj/item/knife/combat,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"xX" = (
+/obj/effect/decal/cleanable/xenoblood,
+/obj/effect/decal/cleanable/xenoblood/xgibs/torso,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"yg" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 1
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/toolbox/maint_kit{
+	pixel_y = 12;
+	pixel_x = 3
+	},
+/obj/item/storage/toolbox/maint_kit{
+	pixel_y = 4
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"yj" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/holopad/secure,
+/obj/item/clothing/mask/facehugger/dead,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
+/area/shuttle/ruin/syndicatefrigate)
+"ys" = (
+/obj/effect/decal/cleanable/xenoblood/xgibs/up,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"yy" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
+/obj/machinery/vending/toyliberationstation,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"yO" = (
+/obj/structure/barricade/security,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"yT" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/alien/weeds/node,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"yU" = (
+/obj/structure/chair/office/tactical{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/wood/large,
+/area/shuttle/ruin/syndicatefrigate)
+"zf" = (
+/obj/effect/turf_decal/siding/thinplating_new/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/effect/spawner/random/medical/medkit,
+/obj/structure/table/reinforced/rglass,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"zg" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/structure/alien/weeds/node,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"zi" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin{
+	pixel_y = 5;
+	pixel_x = 4
+	},
+/obj/item/pen{
+	pixel_y = 5;
+	pixel_x = 4
+	},
+/obj/item/reagent_containers/pill/cyanide{
+	pixel_x = -10;
+	pixel_y = -1
+	},
+/obj/item/stamp/syndicate{
+	pixel_y = 10;
+	pixel_x = -8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/wood/large,
+/area/shuttle/ruin/syndicatefrigate)
+"zn" = (
+/obj/structure/reagent_dispensers/fueltank/large,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"zq" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/machinery/mech_bay_recharge_port{
+	dir = 8
+	},
+/obj/structure/sign/warning/vacuum/directional/east,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"zA" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/machinery/suit_storage_unit/open,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"zB" = (
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"zF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/warning{
+	dir = 8
+	},
+/obj/machinery/computer/camera_advanced/shuttle_docker/syndicatefrigate{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"zH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
+/obj/machinery/suit_storage_unit/open,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"zP" = (
+/obj/effect/turf_decal/bot_red/right,
+/obj/item/ammo_casing/spent,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Aq" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"AL" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/bed/nest,
+/obj/effect/mob_spawn/corpse/human/engineer{
+	outfit_override = list("suit"=/obj/item/clothing/suit/hazardvest,"id"=/obj/item/card/id/advanced/chameleon,"uniform"=/obj/item/clothing/under/syndicate)
+	},
+/obj/item/clothing/mask/facehugger/impregnated,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"AR" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/ammo_box/magazine/m9mm{
+	icon_state = "9x19p-0";
+	start_empty = 1
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"AY" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 1
+	},
+/obj/item/flashlight/lamp,
+/obj/structure/table/reinforced,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"Ba" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"BD" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"BK" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/airlock/external/ruin{
+	name = "SYN-C Brutus External Airlock";
+	id_tag = "brutus_bolt_starboard"
+	},
+/obj/effect/decal/cleanable/blood/trails,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"BR" = (
+/obj/machinery/suit_storage_unit/open,
+/obj/effect/turf_decal/bot_red,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/light/directional/north,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"Cb" = (
+/obj/item/storage/medkit/o2,
+/obj/item/storage/medkit/toxin,
+/obj/item/clothing/glasses/hud/health/night,
+/obj/item/storage/pill_bottle/stimulant,
+/obj/item/clothing/under/syndicate/scrubs,
+/obj/item/healthanalyzer/advanced,
+/obj/item/clothing/gloves/latex/nitrile,
+/obj/structure/closet/syndicate{
+	name = "medical locker";
+	desc = "It's a basic storage unit."
+	},
+/obj/structure/cable,
+/obj/item/gun/syringe/syndicate,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/effect/turf_decal/siding/thinplating_new/light,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"Cc" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Cj" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/closet/crate/trashcart,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/item/clothing/mask/facehugger/toy,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Cn" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Co" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/machinery/airalarm/directional/south,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/machinery/light/directional/south,
+/obj/structure/alien/weeds/node,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Cr" = (
+/obj/machinery/door/airlock/hatch{
+	name = "SYN-C Brutus Infirmary"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"CK" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/structure/bed/nest,
+/obj/item/clothing/mask/facehugger/impregnated,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"CN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"CP" = (
+/obj/effect/turf_decal/caution/stand_clear/white{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"CQ" = (
+/obj/effect/turf_decal/bot_red,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/gibspawner/xeno,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"CV" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/recharger,
+/obj/machinery/turretid{
+	control_area = "/area/ruin/space/has_grav/infested_frigate";
+	icon_state = "control_kill";
+	lethal = 1;
+	pixel_y = -24;
+	req_access = list("syndicate");
+	ailock = 1
+	},
+/obj/item/paper/crumpled/muddy/fluff/infested_frigate,
+/obj/machinery/light_switch/directional/west,
+/turf/open/floor/wood/large,
+/area/shuttle/ruin/syndicatefrigate)
+"CW" = (
+/obj/structure/closet/crate/cargo/mining,
+/obj/item/t_scanner/adv_mining_scanner,
+/obj/item/t_scanner/adv_mining_scanner,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/pickaxe/emergency,
+/obj/item/pickaxe/emergency,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"Dw" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"DB" = (
+/obj/structure/cable/multilayer/connected,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/ruin/syndicatefrigate)
+"DC" = (
+/obj/effect/turf_decal/siding/thinplating_new,
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/machinery/jukebox/public,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"DP" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"DY" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Ec" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Ef" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/green/filled/warning,
+/obj/effect/spawner/random/exotic/antag_gear_weak,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/structure/table/reinforced,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"Em" = (
+/obj/machinery/door/airlock/hatch{
+	name = "SYN-C Brutus Central Hallway"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"EI" = (
+/obj/structure/closet/crate/large{
+	anchored = 1;
+	name = "repair supplies crate"
+	},
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/plastitaniumglass/fifty,
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 50
+	},
+/obj/item/stack/rods/fifty,
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/sign/poster/contraband/random/directional/south,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/machinery/airalarm/directional/south,
+/obj/item/research_paper,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"EK" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 5
+	},
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/structure/table/reinforced,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"ET" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/knife/combat/survival,
+/turf/open/floor/mineral/titanium/tiled,
+/area/shuttle/ruin/syndicatefrigate)
+"Fm" = (
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Fu" = (
+/obj/item/ammo_casing/spent,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"FQ" = (
+/obj/effect/turf_decal/siding/thinplating_new/light,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/machinery/computer/operating,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"FS" = (
+/obj/effect/turf_decal/siding/thinplating_new/light,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/structure/closet/crate/secure/freezer/interdyne/blood,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"FU" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 6
+	},
+/obj/structure/closet/crate/bin,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"Gf" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"GA" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"GL" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/structure/closet/crate/bin,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"GM" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/turf/open/floor/mineral/titanium/tiled,
+/area/shuttle/ruin/syndicatefrigate)
+"GR" = (
+/obj/structure/closet/crate/secure/freezer/pizza{
+	req_access = list("syndicate")
+	},
+/obj/effect/mob_spawn/corpse/human/clown{
+	dir = 4
+	},
+/obj/item/storage/box/monkeycubes,
+/turf/open/floor/iron/freezer,
+/area/shuttle/ruin/syndicatefrigate)
+"GV" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/circular_saw,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/shuttle/ruin/syndicatefrigate)
+"GZ" = (
+/obj/machinery/light/floor,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Hp" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "SYN-C Brutus Armory";
+	id_tag = "brutus_bolt_armory"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"Hr" = (
+/obj/effect/decal/cleanable/xenoblood,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Hu" = (
+/obj/machinery/power/shuttle_engine/large{
+	dir = 8;
+	max_integrity = 2000
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"HH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/trails,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"HQ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/tank_dispenser/oxygen,
+/obj/structure/sign/warning/vacuum/directional/east,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"HW" = (
+/obj/machinery/door/airlock/hatch{
+	name = "SYN-C Brutus Infirmary"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"HX" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"HZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/clothing/mask/facehugger/dead,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Ib" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/item/clothing/mask/facehugger/dead,
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Ip" = (
+/obj/item/kirbyplants/organic/plant21,
+/obj/machinery/light/directional/south,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"IH" = (
+/obj/machinery/suit_storage_unit/open,
+/obj/effect/turf_decal/bot_red,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"IO" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 5
+	},
+/obj/item/radio{
+	pixel_y = 10;
+	pixel_x = -4
+	},
+/obj/item/radio{
+	pixel_y = 6;
+	pixel_x = 6
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"IP" = (
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/table/reinforced,
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_y = 10;
+	pixel_x = -5
+	},
+/obj/effect/spawner/random/food_or_drink/booze{
+	pixel_x = 6;
+	pixel_y = 18
+	},
+/obj/effect/spawner/random/food_or_drink/refreshing_beverage{
+	pixel_x = 10;
+	pixel_y = 12
+	},
+/obj/effect/spawner/random/entertainment/lighter{
+	pixel_y = -2;
+	pixel_x = 8
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"IX" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/xenoblood,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"JO" = (
+/obj/effect/turf_decal/siding/thinplating_new/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"Kn" = (
+/obj/machinery/porta_turret/syndicate/shuttle{
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Ko" = (
+/obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Kz" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 9
+	},
+/obj/item/storage/box/handcuffs{
+	pixel_y = 3
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"KJ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"KK" = (
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"KS" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"KW" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/ruin/syndicatefrigate)
+"KY" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/white/filled/warning,
+/obj/machinery/suit_storage_unit/open,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"Lh" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/machinery/door/poddoor{
+	name = "SYN-C Brutus Hangar Blast Door";
+	id = "brutus_hangar"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"Lo" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/alien/egg/burst,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"Lu" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Lz" = (
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"LM" = (
+/obj/structure/sink/directional/south,
+/obj/structure/mirror/broken/directional/north{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"LZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/button/door/directional/south{
+	id = "brutus_bolt_starboard";
+	name = "External Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	req_access = list("syndicate")
+	},
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Me" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/obj/machinery/door/poddoor{
+	name = "SYN-C Brutus External Window Blast Door";
+	id = "brutus_ext_wind"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"Mm" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Mt" = (
+/obj/machinery/door/airlock/external/ruin{
+	name = "SYN-C Brutus External Airlock";
+	id_tag = "brutus_bolt_starboard"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"Mx" = (
+/obj/item/ammo_casing/spent,
+/obj/effect/gibspawner/human,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"MI" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"MO" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/cable,
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"MS" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/obj/machinery/door/poddoor{
+	name = "SYN-C Brutus External Window Blast Door";
+	id = "brutus_ext_wind"
+	},
+/obj/effect/mapping_helpers/damaged_window,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"Ni" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 1
+	},
+/obj/item/camera,
+/obj/structure/table/reinforced,
+/obj/machinery/light/directional/south,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"Nx" = (
+/obj/machinery/door/airlock/hatch{
+	name = "SYN-C Brutus Central Hallway"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"NA" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/alien/weeds/node,
+/mob/living/carbon/alien/larva{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"NW" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/barricade/security,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Ot" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Pa" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/random/directional/south,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"Pb" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/weldingtool/mini/empty,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Pp" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/warning{
+	dir = 8
+	},
+/obj/machinery/computer/crew/syndie{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"Py" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/alien/egg/burst,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"Pz" = (
+/obj/machinery/door/airlock/hatch{
+	name = "SYN-C Brutus Lounge"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"PP" = (
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/effect/decal/cleanable/xenoblood,
+/obj/effect/gibspawner/xeno,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Qh" = (
+/obj/machinery/light/floor,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Qz" = (
+/obj/structure/closet/crate/large{
+	anchored = 1;
+	name = "sustenance supplies"
+	},
+/obj/effect/turf_decal/delivery/white,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/obj/effect/spawner/random/food_or_drink,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"QU" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"QW" = (
+/obj/effect/mob_spawn/corpse/human/engineer{
+	outfit_override = list("suit"=/obj/item/clothing/suit/hazardvest,"id"=/obj/item/card/id/advanced/chameleon,"uniform"=/obj/item/clothing/under/syndicate)
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"QZ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
+/obj/machinery/suit_storage_unit/open,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"Ra" = (
+/obj/machinery/power/shuttle_engine/heater{
+	dir = 8
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/ruin/syndicatefrigate)
+"Ro" = (
+/obj/structure/alien/weeds/node,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Rp" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/alien/egg/burst,
+/mob/living/basic/alien/queen/large{
+	loot = list(/obj/effect/gibspawner/xeno,/obj/item/ammo_box/magazine/smartgun,/obj/effect/mob_spawn/corpse/human/syndicatecommando/soft_suit);
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"Rq" = (
+/obj/structure/sign/warning/electric_shock/directional/west,
+/obj/structure/cable/layer1,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/structure/closet/crate/large{
+	anchored = 1;
+	name = "nuclear payload crate"
+	},
+/obj/machinery/nuclearbomb/beer{
+	desc = "You probably shouldn't stick around to see if this is armed.. Probably means they failed their mission.";
+	name = "nuclear fission explosive"
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"Rt" = (
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/alien/weeds/node,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"RB" = (
+/obj/machinery/autolathe/hacked,
+/obj/structure/sign/warning/no_smoking/directional/north,
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"RE" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 1
+	},
+/obj/structure/closet/syndicate{
+	name = "prisoner locker";
+	desc = "It's a basic storage unit."
+	},
+/obj/item/clothing/shoes/sneakers/crimson,
+/obj/item/clothing/shoes/sneakers/crimson,
+/obj/item/clothing/under/rank/prisoner/syndicate,
+/obj/item/clothing/under/rank/prisoner/syndicate,
+/obj/item/clothing/under/rank/prisoner/skirt/syndicate,
+/obj/item/clothing/under/rank/prisoner/skirt/syndicate,
+/obj/machinery/newscaster/directional/south,
+/obj/machinery/light/directional/south,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"RG" = (
+/obj/machinery/power/shuttle_engine/heater{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/ruin/syndicatefrigate)
+"RT" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/alien/egg/burst,
+/mob/living/basic/alien/drone{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"RZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"Sj" = (
+/obj/machinery/power/shuttle_engine/propulsion/right{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"Sk" = (
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Su" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/green/filled/warning,
+/obj/machinery/vending/coffee{
+	onstation = 0
+	},
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"SI" = (
+/obj/machinery/power/shuttle_engine/large{
+	dir = 8;
+	max_integrity = 2000
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/syndicatefrigate)
+"SX" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 4
+	},
+/obj/item/flashlight/flare{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/flashlight/flare{
+	pixel_x = -4;
+	pixel_y = 11
+	},
+/obj/item/crowbar/red{
+	pixel_y = 2;
+	pixel_x = 1
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"SZ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/green/filled/warning,
+/obj/machinery/vending/imported/yangyu{
+	onstation = 0
+	},
+/obj/structure/cable,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"TA" = (
+/obj/structure/alien/weeds/node,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Uc" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/obj/item/gun/ballistic/automatic/pistol{
+	spawnwithmagazine = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Uh" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/gibs/core,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/item/clothing/mask/surgical,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/shuttle/ruin/syndicatefrigate)
+"Uo" = (
+/obj/machinery/shower/directional/west,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/red/real_red/filled/warning{
+	dir = 9
+	},
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"Uv" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"UA" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/filled/warning{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/open,
+/obj/structure/sign/poster/contraband/random/directional/south,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"UK" = (
+/obj/structure/kitchenspike,
+/turf/open/floor/iron/freezer,
+/area/shuttle/ruin/syndicatefrigate)
+"Vc" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/bed/nest,
+/obj/item/clothing/mask/facehugger/impregnated,
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/engine,
+/area/shuttle/ruin/syndicatefrigate)
+"Vm" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/airlock/external/ruin{
+	name = "SYN-C Brutus External Airlock";
+	id_tag = "brutus_bolt_starboard"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"VQ" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"VX" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/structure/tank_dispenser/oxygen,
+/obj/structure/sign/warning/vacuum/directional/south,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"Wd" = (
+/obj/item/kirbyplants/organic/plant21,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Wh" = (
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 10
+	},
+/turf/open/floor/iron/freezer,
+/area/shuttle/ruin/syndicatefrigate)
+"WJ" = (
+/obj/effect/mob_spawn/corpse/human/syndicatefrigatecrew/gear,
+/obj/structure/bed/nest,
+/obj/item/clothing/mask/facehugger/impregnated,
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"WM" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/obj/machinery/door/poddoor{
+	name = "SYN-C Brutus Bridge Window Blast Door";
+	id = "brutus_int_wind"
+	},
+/obj/effect/mapping_helpers/damaged_window,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"WN" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/trails{
+	dir = 8
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Xb" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/sign/poster/contraband/random/directional/west,
+/obj/machinery/light/directional/west,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Xk" = (
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Xo" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "brutus_hangar";
+	name = "Hangar Blast Doors Control";
+	req_access = list("syndicate")
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"Xx" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/obj/structure/alien/weeds/node,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/shuttle/ruin/syndicatefrigate)
+"XI" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/machinery/door/airlock/freezer{
+	name = "SYN-C Freezer"
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"XK" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/table,
+/obj/effect/spawner/random/exotic/antag_gear,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"XL" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/machinery/light/directional/west,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"XO" = (
+/obj/effect/turf_decal/siding/thinplating_new/light,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/sink/directional/south,
+/turf/open/floor/pod/light,
+/area/shuttle/ruin/syndicatefrigate)
+"XV" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/airlock/external/ruin{
+	name = "SYN-C Brutus External Airlock";
+	id_tag = "brutus_bolt_starboard"
+	},
+/obj/effect/decal/cleanable/blood/trails,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+"XW" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"Ya" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 1
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/ammo_box/c9mm{
+	pixel_y = 8
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/ruin/syndicatefrigate)
+"Yl" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/shuttle/ruin/syndicatefrigate)
+"Yo" = (
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/structure/table,
+/obj/effect/spawner/random/food_or_drink/refreshing_beverage{
+	pixel_y = 3;
+	pixel_x = -7
+	},
+/obj/structure/cable,
+/obj/structure/sign/flag/syndicate/directional/south,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"Ys" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 1
+	},
+/obj/machinery/vending/snack/orange{
+	onstation = 0
+	},
+/turf/open/floor/pod,
+/area/shuttle/ruin/syndicatefrigate)
+"Yu" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/clothing/head/utility/welding{
+	pixel_y = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"Yy" = (
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"YM" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/syndicatefrigate)
+"YS" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"YT" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/airalarm/directional/south,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/obj/item/ammo_casing/spent{
+	desc = "A modern 9x25mm Mk.12 bullet casing.";
+	name = "9x25mm Mk.12 bullet casing";
+	caliber = "9mm"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicatefrigate)
+"YV" = (
+/obj/effect/turf_decal/tile/red/real_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red,
+/obj/item/chair{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/broken_bottle,
+/mob/living/basic/alien{
+	faction = list("Syndicate","Xenomorph")
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/syndicatefrigate)
+"ZD" = (
+/obj/structure/cable,
+/obj/machinery/power/rtg/advanced,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicatefrigate)
+"ZR" = (
+/obj/machinery/door/airlock/hatch{
+	name = "SYN-C Brutus Operations"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicatefrigate)
+
+(1,1,1) = {"
+fW
+fW
+fW
+fW
+fW
+fW
+vo
+RZ
+ja
+fW
+fW
+fW
+fW
+fW
+fW
+"}
+(2,1,1) = {"
+fW
+fW
+fW
+vo
+SI
+sw
+mC
+Lz
+wX
+jV
+RZ
+Hu
+fW
+fW
+fW
+"}
+(3,1,1) = {"
+fW
+kh
+hs
+mC
+Lz
+KW
+Lz
+QU
+Lz
+KW
+Lz
+wX
+Sj
+eF
+fW
+"}
+(4,1,1) = {"
+fW
+KW
+Ra
+Ra
+Ra
+KW
+Ra
+RG
+Ra
+KW
+Ra
+Ra
+Ra
+KW
+fW
+"}
+(5,1,1) = {"
+fW
+KW
+MI
+Aq
+KW
+KW
+gY
+DB
+gY
+KW
+KW
+Aq
+GR
+KW
+fW
+"}
+(6,1,1) = {"
+fW
+KW
+LM
+tO
+KW
+sA
+CK
+Rq
+rG
+sA
+KW
+kg
+Wh
+KW
+fW
+"}
+(7,1,1) = {"
+fW
+KW
+qL
+Dw
+KW
+ZD
+RT
+gE
+NA
+sA
+KW
+UK
+rX
+KW
+fW
+"}
+(8,1,1) = {"
+fW
+KW
+ir
+KW
+KW
+jJ
+AL
+hb
+eq
+jJ
+KW
+KW
+XI
+KW
+fW
+"}
+(9,1,1) = {"
+fW
+KW
+Uv
+sQ
+KW
+RB
+Py
+mD
+wk
+DP
+KW
+ff
+Yy
+KW
+fW
+"}
+(10,1,1) = {"
+fW
+lx
+mR
+Kz
+KW
+gN
+Rp
+kl
+lY
+EI
+KW
+IP
+Rt
+Me
+fW
+"}
+(11,1,1) = {"
+fW
+Me
+BD
+RE
+KW
+CW
+nO
+Vc
+Lo
+Qz
+KW
+sL
+ro
+lx
+fW
+"}
+(12,1,1) = {"
+fW
+Me
+vV
+pJ
+KW
+cT
+bG
+jo
+lY
+zn
+KW
+eb
+YV
+Me
+fW
+"}
+(13,1,1) = {"
+fW
+KW
+go
+pn
+KW
+KW
+KW
+hL
+KW
+KW
+KW
+rB
+Yo
+KW
+fW
+"}
+(14,1,1) = {"
+fW
+Me
+KS
+kF
+GL
+KW
+wK
+CP
+aH
+KW
+wA
+nq
+JO
+Me
+fW
+"}
+(15,1,1) = {"
+fW
+Me
+MO
+lW
+lW
+ZR
+lW
+mI
+HZ
+Pz
+ib
+lg
+lE
+Me
+fW
+"}
+(16,1,1) = {"
+fW
+Me
+XK
+XW
+Co
+KW
+qQ
+fd
+eh
+KW
+mt
+ET
+cx
+Me
+fW
+"}
+(17,1,1) = {"
+fW
+KW
+Cc
+lW
+Cj
+KW
+KW
+Cr
+KW
+KW
+DC
+GM
+Pa
+KW
+fW
+"}
+(18,1,1) = {"
+fW
+KW
+KW
+ZR
+KW
+KW
+FS
+pL
+rA
+KW
+KW
+Pz
+KW
+KW
+fW
+"}
+(19,1,1) = {"
+kh
+KW
+KW
+gT
+ov
+KW
+Cb
+GV
+eL
+KW
+gO
+jh
+KW
+KW
+eF
+"}
+(20,1,1) = {"
+gF
+KK
+eI
+gT
+fj
+KW
+XO
+Xx
+zf
+KW
+KY
+Lu
+BK
+wc
+XV
+"}
+(21,1,1) = {"
+KW
+qd
+KW
+hc
+nZ
+KW
+oj
+Yl
+eQ
+KW
+jq
+LZ
+KW
+VX
+KW
+"}
+(22,1,1) = {"
+au
+KK
+eI
+gT
+UA
+KW
+lf
+Uh
+vO
+KW
+dy
+gT
+Mt
+KK
+Vm
+"}
+(23,1,1) = {"
+kw
+KW
+KW
+gT
+ov
+KW
+FQ
+jd
+wn
+KW
+gO
+gT
+KW
+KW
+Kn
+"}
+(24,1,1) = {"
+fW
+KW
+KW
+Em
+KW
+KW
+KW
+HW
+KW
+KW
+KW
+Em
+KW
+KW
+fW
+"}
+(25,1,1) = {"
+fW
+Me
+my
+gT
+TA
+Xb
+Hr
+HX
+YM
+XL
+VQ
+qG
+Ys
+Me
+fW
+"}
+(26,1,1) = {"
+fW
+Me
+SZ
+Gf
+hX
+mL
+Uo
+lK
+ut
+zg
+Ba
+KJ
+et
+Me
+fW
+"}
+(27,1,1) = {"
+fW
+Me
+Su
+AR
+KK
+KW
+KW
+KW
+KW
+KW
+KK
+Ot
+ee
+Me
+fW
+"}
+(28,1,1) = {"
+fW
+kw
+KW
+Em
+KW
+KW
+gU
+xi
+bu
+KW
+KW
+Nx
+KW
+Kn
+fW
+"}
+(29,1,1) = {"
+fW
+fW
+KW
+gT
+AY
+KW
+gX
+gJ
+tF
+KW
+gn
+Ot
+KW
+fW
+fW
+"}
+(30,1,1) = {"
+fW
+fW
+KW
+pE
+Ni
+KW
+zA
+Pb
+hk
+KW
+nh
+mG
+KW
+fW
+fW
+"}
+(31,1,1) = {"
+fW
+fW
+lx
+Uc
+nz
+KW
+zH
+qD
+Ya
+KW
+Ef
+YS
+Me
+fW
+fW
+"}
+(32,1,1) = {"
+fW
+fW
+Me
+WN
+EK
+KW
+QZ
+by
+yg
+KW
+FU
+YS
+Me
+fW
+fW
+"}
+(33,1,1) = {"
+fW
+fW
+Me
+wO
+hP
+KW
+yy
+fd
+wr
+KW
+hP
+hM
+Me
+fW
+fW
+"}
+(34,1,1) = {"
+fW
+fW
+KW
+DY
+VQ
+KW
+KW
+Hp
+KW
+KW
+cc
+YT
+KW
+fW
+fW
+"}
+(35,1,1) = {"
+fW
+fW
+Me
+gT
+NW
+cw
+HH
+yT
+Cn
+ki
+kK
+qa
+Me
+fW
+fW
+"}
+(36,1,1) = {"
+fW
+fW
+MS
+of
+CN
+hF
+lF
+hn
+pe
+fp
+uf
+KK
+Me
+fW
+fW
+"}
+(37,1,1) = {"
+fW
+fW
+MS
+ys
+xX
+KW
+KW
+lD
+KW
+KW
+QW
+Xk
+Me
+fW
+fW
+"}
+(38,1,1) = {"
+fW
+fW
+KW
+aA
+Ip
+KW
+mr
+yj
+CV
+KW
+hO
+uf
+KW
+fW
+fW
+"}
+(39,1,1) = {"
+fW
+fW
+KW
+Ec
+sF
+KW
+zi
+yU
+af
+KW
+ld
+sr
+KW
+fW
+fW
+"}
+(40,1,1) = {"
+fW
+fW
+KW
+vE
+KW
+KW
+Pp
+dJ
+zF
+KW
+KW
+rQ
+KW
+fW
+fW
+"}
+(41,1,1) = {"
+fW
+fW
+KW
+yO
+Wd
+gf
+gf
+WM
+WM
+gf
+uN
+Sk
+KW
+fW
+fW
+"}
+(42,1,1) = {"
+fW
+fW
+KW
+Ro
+Qh
+IO
+SX
+Xo
+uI
+aq
+GZ
+ly
+KW
+fW
+fW
+"}
+(43,1,1) = {"
+fW
+fW
+KW
+zB
+Fu
+aK
+no
+pI
+WJ
+PP
+ct
+jA
+KW
+fW
+fW
+"}
+(44,1,1) = {"
+fW
+fW
+KW
+dX
+GA
+fm
+Ib
+IX
+ab
+Yu
+wx
+li
+KW
+fW
+fW
+"}
+(45,1,1) = {"
+fW
+fW
+KW
+BR
+jT
+gi
+Mm
+Mx
+cq
+tJ
+uP
+sy
+KW
+fW
+fW
+"}
+(46,1,1) = {"
+fW
+fW
+KW
+IH
+Ko
+pA
+lM
+pN
+qj
+iC
+Fm
+fz
+KW
+fW
+fW
+"}
+(47,1,1) = {"
+fW
+fW
+KW
+HQ
+zP
+ma
+pT
+pT
+CQ
+mP
+gM
+zq
+KW
+fW
+fW
+"}
+(48,1,1) = {"
+fW
+fW
+kw
+KW
+Lh
+Lh
+Lh
+Lh
+Lh
+Lh
+Lh
+KW
+Kn
+fW
+fW
+"}

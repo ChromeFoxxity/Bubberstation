@@ -491,6 +491,7 @@ BUBBERSTATION REMOVAL END */
 
 /datum/map_template/ruin/space/infested_frigate
 	id = "infested_frigate"
+	prefix = "_maps/RandomRuins/SpaceRuins/bubberstation" //BUBBER EDIT. Obviously.
 	suffix = "infested_frigate.dmm"
 	name = "Space-Ruin SYN-C Brutus"
 	description = "This wasn't an outbreak, this was a repelled attack."

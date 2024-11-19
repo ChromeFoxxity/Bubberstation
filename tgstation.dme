@@ -9021,6 +9021,7 @@
 #include "modular_zubbers\code\modules\hydroponics\plant_genes.dm"
 #include "modular_zubbers\code\modules\hydroponics\code\grown\rocks.dm"
 #include "modular_zubbers\code\modules\hydroponics\code\plantgenes\hydroponics.dm"
+#include "modular_zubbers\code\modules\infested_frigate\infested_frigate.dm"
 #include "modular_zubbers\code\modules\item_reskins\plastic.dm"
 #include "modular_zubbers\code\modules\job_estimation\code\dead.dm"
 #include "modular_zubbers\code\modules\job_exempt\job_exempt.dm"
