@@ -104,3 +104,7 @@
 		),
 	)
 	. = ..()
+
+/datum/mod_theme/corporate/consultant
+	armor_type = /datum/armor/mod_theme_blueshield
+	inbuilt_modules = list(/datum/armor/mod_module_armor_boost_blueshield)

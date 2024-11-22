@@ -6,11 +6,7 @@
 /obj/effect/turf_decal/trimline/white/filled/warning{
 	dir = 5
 	},
-/obj/machinery/suit_storage_unit/nuke_med{
-	name = "Spare Command suit storage unit";
-	suit_type = /obj/item/clothing/suit/space/syndicate/blue;
-	helmet_type = /obj/item/clothing/head/helmet/space/syndicate/black/blue
-	},
+/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "ak" = (
@@ -412,12 +408,14 @@
 /turf/open/floor/grass,
 /area/shuttle/escape)
 "gt" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/white/filled/warning{
 	dir = 1
+	},
+/obj/machinery/suit_storage_unit/hos{
+	name = "Head of Security's suit storage unit"
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
@@ -886,20 +884,17 @@
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "mO" = (
-/obj/structure/table/reinforced/titaniumglass,
-/obj/item/stock_parts/power_store/cell/super,
-/obj/item/stock_parts/power_store/cell/super,
-/obj/item/stock_parts/power_store/cell/super,
-/obj/item/stock_parts/power_store/cell/super,
-/obj/item/stock_parts/power_store/cell/super,
-/obj/item/stock_parts/power_store/cell/super,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/white/filled/warning{
 	dir = 1
 	},
-/obj/machinery/cell_charger_multi,
+/obj/machinery/suit_storage_unit/nuke_med{
+	name = "Spare Command suit storage unit";
+	suit_type = /obj/item/clothing/suit/space/syndicate/blue;
+	helmet_type = /obj/item/clothing/head/helmet/space/syndicate/black/blue
+	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "mR" = (
@@ -1178,8 +1173,8 @@
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 4
 	},
-/obj/machinery/rnd/production/protolathe/department/engineering,
 /obj/structure/extinguisher_cabinet/directional/west,
+/obj/machinery/rnd/production/techfab/department/engineering,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape/engine)
 "pE" = (
@@ -1581,7 +1576,7 @@
 /area/shuttle/escape/engine)
 "tv" = (
 /obj/machinery/suit_storage_unit/hos{
-	mod_type = /obj/item/mod/control/pre_equipped/asset_protection;
+	mod_type = /obj/item/mod/control/pre_equipped/blueshield;
 	name = "Blueshield's suit storage unit"
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -1699,9 +1694,9 @@
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
 	},
-/obj/machinery/rnd/production/protolathe/department/medical,
 /obj/machinery/light/cold/dim/directional/south,
 /obj/machinery/status_display/evac/directional/south,
+/obj/machinery/rnd/production/techfab/department/medical,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "vd" = (
@@ -2194,7 +2189,8 @@
 	},
 /obj/structure/cable,
 /obj/machinery/suit_storage_unit/centcom{
-	name = "Representative's suit storage unit"
+	name = "Representative's suit storage unit";
+	mod_type = /obj/item/mod/control/pre_equipped/corporate/consultant
 	},
 /turf/open/floor/mineral/silver,
 /area/shuttle/escape)
@@ -2268,10 +2264,10 @@
 /obj/effect/mapping_helpers/requests_console/assistance,
 /obj/effect/mapping_helpers/requests_console/announcement,
 /obj/effect/mapping_helpers/requests_console/information,
-/obj/machinery/rnd/production/protolathe/tarkon{
-	stripe_color = "#486091";
+/obj/machinery/rnd/production/techfab{
+	name = "advanced department protolathe (Command)";
 	desc = "A special protolathe with a built in interface meant for departmental usage, with built in ExoSync receivers allowing it to print designs researched that match its ROM-encoded department type.";
-	name = "advanced department protolathe (Command)"
+	stripe_color = "#486091"
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
@@ -2294,9 +2290,9 @@
 	name = "Evacuation Shuttle E.V.A."
 	},
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/command/eva,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/all/command/general,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/escape)
 "AX" = (
@@ -2611,18 +2607,22 @@
 /area/shuttle/escape/brig)
 "EM" = (
 /obj/machinery/light/cold/dim/directional/south,
-/obj/structure/tank_dispenser/oxygen,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /obj/machinery/button/door{
 	id = "vortexevaceva";
 	name = "Window Shutters Control";
-	req_access = list("eva");
+	req_access = list("command");
 	pixel_y = -25
 	},
 /obj/effect/turf_decal/trimline/white/filled/warning{
 	dir = 1
+	},
+/obj/machinery/suit_storage_unit/nuke_med{
+	name = "Spare Command suit storage unit";
+	suit_type = /obj/item/clothing/suit/space/syndicate/blue;
+	helmet_type = /obj/item/clothing/head/helmet/space/syndicate/black/blue
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
@@ -2637,6 +2637,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/multitool,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "EX" = (
@@ -3276,7 +3277,7 @@
 "MZ" = (
 /obj/machinery/status_display/evac/directional/north,
 /obj/machinery/light/cold/dim/directional/north,
-/obj/machinery/rnd/production/protolathe/department/security{
+/obj/machinery/rnd/production/techfab/department/security{
 	stripe_color = "#DE3A3A"
 	},
 /turf/open/floor/iron/dark,
@@ -3490,7 +3491,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/scanner_gate/preset_guns,
+/obj/machinery/scanner_gate/preset_guns{
+	dir = 4
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/escape/brig)
 "PM" = (
@@ -4197,9 +4200,14 @@
 /obj/effect/turf_decal/trimline/white/filled/warning{
 	dir = 6
 	},
-/obj/machinery/suit_storage_unit/hos{
-	name = "Head of Security's suit storage unit"
-	},
+/obj/structure/table/reinforced/titaniumglass,
+/obj/machinery/cell_charger_multi,
+/obj/item/stock_parts/power_store/cell/super,
+/obj/item/stock_parts/power_store/cell/super,
+/obj/item/stock_parts/power_store/cell/super,
+/obj/item/stock_parts/power_store/cell/super,
+/obj/item/stock_parts/power_store/cell/super,
+/obj/item/stock_parts/power_store/cell/super,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "Ym" = (

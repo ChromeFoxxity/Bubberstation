@@ -64,7 +64,7 @@
 /datum/id_trim/job/nanotrasen_consultant
 	assignment = "Nanotrasen Consultant"
 	trim_state = "trim_centcom"
-	department_color = COLOR_GREEN
+	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_GREEN
 	sechud_icon_state = SECHUD_NT_CONSULTANT
 	extra_access = list()
@@ -77,8 +77,8 @@
 				ACCESS_MINING_STATION, ACCESS_MINERAL_STOREROOM, ACCESS_MORGUE, ACCESS_PSYCHOLOGY, ACCESS_RC_ANNOUNCE,
 				ACCESS_RESEARCH, ACCESS_SECURITY, ACCESS_TELEPORTER, ACCESS_THEATRE, ACCESS_VAULT, ACCESS_WEAPONS
 				)
-	minimal_wildcard_access = list(ACCESS_CAPTAIN, ACCESS_CENT_GENERAL)
-	template_access = list(ACCESS_CAPTAIN, ACCESS_CHANGE_IDS)
+	minimal_wildcard_access = list()
+	template_access = list(ACCESS_CAPTAIN)
 
 /datum/id_trim/job/corrections_officer
 	assignment = "Corrections Officer"

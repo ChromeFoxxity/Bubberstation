@@ -16,3 +16,15 @@
 	default_pins = list(
 		/obj/item/mod/module/jetpack,
 	)
+
+/obj/item/mod/control/pre_equipped/corporate/consultant // This is also for the Vortex Shuttle.
+	theme = /datum/mod_theme/corporate/consultant
+	starting_frequency = MODLINK_FREQ_CENTCOM
+	applied_core = /obj/item/mod/core
+	applied_cell = /obj/item/stock_parts/power_store/cell/high
+	req_access = list(ACCESS_CENT_GENERAL)
+	applied_modules = list(
+		/obj/item/mod/module/storage/large_capacity,
+		/obj/item/mod/module/hat_stabilizer,
+		/obj/item/mod/module/magnetic_harness,
+	)

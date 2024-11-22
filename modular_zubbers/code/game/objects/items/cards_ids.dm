@@ -17,3 +17,13 @@
 	inhand_icon_state = "korven"
 	lefthand_file = 'modular_zubbers/icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'modular_zubbers/icons/mob/inhands/equipment/idcards_righthand.dmi'
+
+/obj/item/card/id/advanced/centcom/onstation // For the NTC and Blueshield, they're CentCom employees. Not Station Heads.
+	name = "\improper CentCom ID"
+	desc = "An ID straight from Central Command."
+	icon_state = "card_centcom"
+	assigned_icon_state = "assigned_centcom"
+	registered_name = JOB_CENTCOM
+	registered_age = null
+	trim = /datum/id_trim/centcom
+	wildcard_slots = WILDCARD_LIMIT_SILVER // So they can't give themselves everything, why didn't they think of this already?
